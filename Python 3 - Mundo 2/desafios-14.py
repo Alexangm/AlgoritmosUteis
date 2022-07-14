@@ -45,7 +45,7 @@ while op != 5:
         n2 = int(input("Digite o novo segundo valor: "))
 """
 
-"""
+"""  while
 n = num = int(input("Digite um número para calcular o fatorial: "))
 res = 1
 while num > 1:
@@ -53,3 +53,18 @@ while num > 1:
     num -= 1
 print(f"Fatorial de {n} = {res}")
 """
+
+"""for
+n = int(input("Digite um número para ser calculado o fatorial: "))
+if n == 0:
+    res = 0
+else:
+    res = 1
+for x in range(1, n+1):
+    res = res * x
+print(f"Fatorial de {n} = {res}")
+"""
+
+ptermo = int(input("Digite o primeiro termo da sequeência:"))
+razao = int(input("Digite a razao da sequencia: "))
+
