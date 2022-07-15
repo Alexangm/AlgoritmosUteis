@@ -65,6 +65,64 @@ for x in range(1, n+1):
 print(f"Fatorial de {n} = {res}")
 """
 
-ptermo = int(input("Digite o primeiro termo da sequeência:"))
-razao = int(input("Digite a razao da sequencia: "))
+"""
+ptermo = int(input("Digite o primeiro termo da sequência: "))
+razao = int(input("Digite a razao da sequência: "))
+i = 0
+while i < 10:
+    print(ptermo)
+    ptermo = ptermo + razao
+    i += 1
+"""
 
+"""
+ptermo = int(input("Digite o primeiro termo da sequência: "))
+razao = int(input("Digite a razao da sequência: "))
+i = 0
+j = 10
+while i < j or j != 0:
+    print(ptermo)
+    ptermo = ptermo + razao
+    i += 1
+    if i == j:
+        j = int(input("Quantos termos você quer mostrar a mais? "))
+        i = 0
+"""
+
+"""
+t = int(input("Qual o tamanho da sequência de Fibonacci a ser exibida? (min 2) "))
+seq = [0, 1]
+print("0\n1")
+i = 2
+while i < t:
+    seq.append(seq[i-2] + seq[i-1])
+    print(seq[i])
+    i = i + 1
+"""
+
+"""
+flag = 0
+soma = 0
+while flag != 999:
+    soma = soma + flag
+    flag = int(input("Digite 999: "))
+print(f"Soma = {soma}")
+"""
+
+"""
+maior = menor = num = soma = cont = 0
+flag = ""
+while flag != "N":
+    num = int(input("Digite um número: "))
+    soma = soma + num
+    cont = cont + 1
+    if flag == "":
+        maior = menor = num
+    else:
+        if num > maior:
+            maior = num
+        if num < menor:
+            menor = num
+    flag = str(input("Continuar? ")).upper()
+print(f"Maior = {maior}, menor = {menor}, média = {soma/cont}")
+"""
