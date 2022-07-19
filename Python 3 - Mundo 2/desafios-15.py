@@ -60,8 +60,6 @@ c = " "
 
 while True:
     sexo = str(" ")
-    print(sexo)
-    print(sexo in "mMhH")
     c = " "
     idade = int(input("Digite a idade: "))
     while sexo not in "mMhH":
