@@ -64,9 +64,10 @@ produtos = ("Lápis", 1.75, "Borracha", 2, "Caderno", 15.9, "Estojo", 25,
 
 for pos, i in enumerate(produtos):
     if pos % 2 == 0:
-        print(f"{i :.<30} R${produtos[pos+1]:.2f}")
+        print(f"{i :.<30} R${produtos[pos+1]:>7.2f}")
 """
 
+"""
 palavras = ("aprender", "orar", "pecar", "cometer", "amar", "notebook", "python")
 for i in palavras:
     print(f"Na palavra {i} temos:", end="")
@@ -74,3 +75,4 @@ for i in palavras:
         if j in "aeiou":
             print(f" {j}", end="")
     print("")
+"""
