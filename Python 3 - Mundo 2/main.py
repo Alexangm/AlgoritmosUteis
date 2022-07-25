@@ -8,9 +8,18 @@
 
 # print(sorted(tuplas))
 
-
+"""
 tuplaA = (1, 5, 8)
 tuplaB = (2, 1, 10, 5)
 tuplaAB = tuplaA + tuplaB
 
 print(tuplaAB)
+"""
+
+lista = [1, 7, 2, 3, 0]
+lista.append(3)
+lista.sort(reverse=True)
+print(lista)
+lista.pop()
+lista.remove(3)
+print(lista)
