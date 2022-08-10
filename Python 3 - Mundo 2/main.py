@@ -16,6 +16,8 @@ tuplaAB = tuplaA + tuplaB
 print(tuplaAB)
 """
 
+
+"""
 lista = [1, 7, 2, 3, 0]
 lista.append(3)
 lista.sort(reverse=True)
@@ -23,3 +25,9 @@ print(lista)
 lista.pop()
 lista.remove(3)
 print(lista)
+"""
+
+# dicionario = dict()
+dicionario = {'nome':"nome", 'idade':20}
+dicionario['sexo']="M"
+del dicionario['idade']
