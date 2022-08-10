@@ -31,3 +31,5 @@ print(lista)
 dicionario = {'nome':"nome", 'idade':20}
 dicionario['sexo']="M"
 del dicionario['idade']
+
+teste
