@@ -1,0 +1,2 @@
+Este código tem como objetivo converter, em massa, arquivos MP4 para MP3.
+Para usar o código, é preciso modificar a variável "pathMp3" e "pathMp4" seguidos os próprios caminhos dos repositórios, além de colocar os nomes dos arquivos que serão convertidos.
